@@ -1,5 +1,6 @@
 module.exports = {
     env: {
+      browser: true,
       es2020: true,
       'jest/globals': true,
       node: true,
@@ -8,6 +9,8 @@ module.exports = {
       'airbnb-base',
       'plugin:jest/all',
       'plugin:import/typescript',
+      'plugin:@typescript-eslint/eslint-recommended',
+      'plugin:@typescript-eslint/recommended',
       'plugin:jsdoc/recommended',
     ],
     globals: {
